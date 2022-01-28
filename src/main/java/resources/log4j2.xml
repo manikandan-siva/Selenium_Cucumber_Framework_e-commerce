@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- log4j configuration -->
+<Configuration status="trace">
+
+  <!-- to change value of any default property like base path which will be till EcommerceOperations folder till now -->
+  <Properties>
+    <Property name="basePath">./logs</Property>
+  </Properties>
+  
+  <!-- how we want logs in file or console, msg pattern 16:08:42.015 [main] INFO  resources.Base - Driver initiated -->
+  <Appenders>  
+  	<RollingFile name="File" filePattern="${basepath}/logs-%d{yyyy-mm-dd}.log">
+    <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    <SizeBasedTriggeringPolicy size = "100" /> <!-- after 100 lines it will write in new file -->
+  	</RollingFile>
+  	
+  	<!-- if we want logs in console -->
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    </Console>
+  </Appenders>
+  
+  <Loggers><!-- where we want logs file or console and what level logs we need -->
+    <Root level="trace">
+      <AppenderRef ref="File"/>
+    </Root>
+  </Loggers>
+</Configuration>

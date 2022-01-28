@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="41.24" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\DEV\ECLIPSE3\EcommerceOperations\target\test-classes;C:\DEV\ECLIPSE3\EcommerceOperations\target\classes;C:\Users\KANDAN S\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\KANDAN S\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\KANDAN S\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\KANDAN S\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\KANDAN S\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\KANDAN S\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\KANDAN S\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\KANDAN S\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\KANDAN S\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\KANDAN S\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\KANDAN S\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\KANDAN S\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\KANDAN S\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\KANDAN S\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\KANDAN S\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\KANDAN S\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\KANDAN S\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\KANDAN S\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\KANDAN S\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\KANDAN S\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\KANDAN S\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\KANDAN S\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\KANDAN S\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\KANDAN S\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\KANDAN S\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\KANDAN S\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\KANDAN S\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\KANDAN S\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\KANDAN S\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\KANDAN S\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\KANDAN S\.m2\repository\io\cucumber\cucumber-java\7.0.0-RC1\cucumber-java-7.0.0-RC1.jar;C:\Users\KANDAN S\.m2\repository\io\cucumber\cucumber-core\7.0.0-RC1\cucumber-core-7.0.0-RC1.jar;C:\Users\KANDAN S\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0-RC1\cucumber-gherkin-7.0.0-RC1.jar;C:\Users\KANDAN S\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0-RC1\cucumber-gherkin-messages-7.0.0-RC1.jar;C:\Users\KANDAN S\.m2\repository\io\cucumber\messages\17.1.0\messages-17.1.0.jar;C:\Users\KANDAN S\.m2\repository\io\cucumber\tag-expressions\4.0.0\tag-expressions-4.0.0.jar;C:\Users\KANDAN S\.m2\repository\io\cucumber\cucumber-expressions\12.1.3\cucumber-expressions-12.1.3.jar;C:\Users\KANDAN S\.m2\repository\io\cucumber\datatable\7.0.0-RC1\datatable-7.0.0-RC1.jar;C:\Users\KANDAN S\.m2\repository\io\cucumber\cucumber-plugin\7.0.0-RC1\cucumber-plugin-7.0.0-RC1.jar;C:\Users\KANDAN S\.m2\repository\io\cucumber\docstring\7.0.0-RC1\docstring-7.0.0-RC1.jar;C:\Users\KANDAN S\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\KANDAN S\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\KANDAN S\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\KANDAN S\.m2\repository\io\cucumber\cucumber-testng\7.0.0-RC1\cucumber-testng-7.0.0-RC1.jar;C:\Users\KANDAN S\.m2\repository\org\apache\logging\log4j\log4j-api\2.15.0\log4j-api-2.15.0.jar;C:\Users\KANDAN S\.m2\repository\org\apache\logging\log4j\log4j-core\2.15.0\log4j-core-2.15.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\KANDAN~1\AppData\Local\Temp\surefire13438472650567234470\surefirebooter1849593158419743397.jar C:\Users\KANDAN S\AppData\Local\Temp\surefire13438472650567234470 2021-12-17T17-29-25_530-jvmRun1 surefire12180326567975175684tmp surefire_011833563450255946515tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\DEV\ECLIPSE3\EcommerceOperations\target\test-classes;C:\DEV\ECLIPSE3\EcommerceOperations\target\classes;C:\Users\KANDAN S\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\KANDAN S\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\KANDAN S\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\KANDAN S\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\KANDAN S\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\KANDAN S\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\KANDAN S\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\KANDAN S\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\KANDAN S\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\KANDAN S\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\KANDAN S\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\KANDAN S\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\KANDAN S\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\KANDAN S\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\KANDAN S\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\KANDAN S\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\KANDAN S\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\KANDAN S\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\KANDAN S\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\KANDAN S\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\KANDAN S\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\KANDAN S\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\KANDAN S\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\KANDAN S\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\KANDAN S\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\KANDAN S\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\KANDAN S\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\KANDAN S\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\KANDAN S\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\KANDAN S\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\KANDAN S\.m2\repository\io\cucumber\cucumber-java\7.0.0-RC1\cucumber-java-7.0.0-RC1.jar;C:\Users\KANDAN S\.m2\repository\io\cucumber\cucumber-core\7.0.0-RC1\cucumber-core-7.0.0-RC1.jar;C:\Users\KANDAN S\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0-RC1\cucumber-gherkin-7.0.0-RC1.jar;C:\Users\KANDAN S\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0-RC1\cucumber-gherkin-messages-7.0.0-RC1.jar;C:\Users\KANDAN S\.m2\repository\io\cucumber\messages\17.1.0\messages-17.1.0.jar;C:\Users\KANDAN S\.m2\repository\io\cucumber\tag-expressions\4.0.0\tag-expressions-4.0.0.jar;C:\Users\KANDAN S\.m2\repository\io\cucumber\cucumber-expressions\12.1.3\cucumber-expressions-12.1.3.jar;C:\Users\KANDAN S\.m2\repository\io\cucumber\datatable\7.0.0-RC1\datatable-7.0.0-RC1.jar;C:\Users\KANDAN S\.m2\repository\io\cucumber\cucumber-plugin\7.0.0-RC1\cucumber-plugin-7.0.0-RC1.jar;C:\Users\KANDAN S\.m2\repository\io\cucumber\docstring\7.0.0-RC1\docstring-7.0.0-RC1.jar;C:\Users\KANDAN S\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\KANDAN S\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\KANDAN S\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\KANDAN S\.m2\repository\io\cucumber\cucumber-testng\7.0.0-RC1\cucumber-testng-7.0.0-RC1.jar;C:\Users\KANDAN S\.m2\repository\org\apache\logging\log4j\log4j-api\2.15.0\log4j-api-2.15.0.jar;C:\Users\KANDAN S\.m2\repository\org\apache\logging\log4j\log4j-core\2.15.0\log4j-core-2.15.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\KANDAN S"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\DEV\ECLIPSE3\EcommerceOperations"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\KANDAN~1\AppData\Local\Temp\surefire13438472650567234470\surefirebooter1849593158419743397.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="14.0.2+12-46"/>
+    <property name="user.name" value="KANDAN S"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\KANDAN S\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\KANDAN~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="14.0.2"/>
+    <property name="user.dir" value="C:\DEV\ECLIPSE3\EcommerceOperations"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk-14.0.2\\bin;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files\apache-ant-1.9.15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\DEV\API\axis2-1.6.2\bin;C:\DEV\PYTHON;C:\DEV\PYTHON\Scripts;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\KANDAN S\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14.0.2+12-46"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="runScenario" classname="cucumberOptions.TestRunner2" time="37.995">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#id_gender2&quot;}&#10;  (Session info: chrome=96.0.4664.45)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-O0MMQ8B3&apos;, ip: &apos;192.168.1.10&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\KANDAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49603}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 69cd4ade4c4ead153b77f2b008a36416&#10;*** Element info: {Using=id, value=id_gender2}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#id_gender2"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-O0MMQ8B3', ip: '192.168.1.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\KANDAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49603}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 69cd4ade4c4ead153b77f2b008a36416
+*** Element info: {Using=id, value=id_gender2}
+</failure>
+    <system-out><![CDATA[2021-12-17 17:29:32,646 TestNG-test=Test-1 DEBUG Apache Log4j Core 2.15.0 initializing configuration XmlConfiguration[location=C:\DEV\ECLIPSE3\EcommerceOperations\target\classes\log4j2.xml]
+2021-12-17 17:29:32,682 TestNG-test=Test-1 DEBUG Installed 1 script engine
+2021-12-17 17:29:33,761 TestNG-test=Test-1 DEBUG Oracle Nashorn version: 14.0.2, language: ECMAScript, threading: Not Thread Safe, compile: true, names: [nashorn, Nashorn, js, JS, JavaScript, javascript, ECMAScript, ecmascript], factory class: jdk.nashorn.api.scripting.NashornScriptEngineFactory
+2021-12-17 17:29:33,762 TestNG-test=Test-1 DEBUG PluginManager 'Core' found 127 plugins
+2021-12-17 17:29:33,763 TestNG-test=Test-1 DEBUG PluginManager 'Level' found 0 plugins
+2021-12-17 17:29:33,779 TestNG-test=Test-1 DEBUG Building Plugin[name=property, class=org.apache.logging.log4j.core.config.Property].
+2021-12-17 17:29:33,821 TestNG-test=Test-1 TRACE TypeConverterRegistry initializing.
+2021-12-17 17:29:33,822 TestNG-test=Test-1 DEBUG PluginManager 'TypeConverter' found 26 plugins
+2021-12-17 17:29:33,842 TestNG-test=Test-1 DEBUG createProperty(name="basePath", value="./logs")
+2021-12-17 17:29:33,843 TestNG-test=Test-1 DEBUG Building Plugin[name=properties, class=org.apache.logging.log4j.core.config.PropertiesPlugin].
+2021-12-17 17:29:33,856 TestNG-test=Test-1 DEBUG configureSubstitutor(={basePath=./logs}, Configuration(C:\DEV\ECLIPSE3\EcommerceOperations\target\classes\log4j2.xml))
+2021-12-17 17:29:33,858 TestNG-test=Test-1 DEBUG PluginManager 'Lookup' found 16 plugins
+2021-12-17 17:29:33,861 TestNG-test=Test-1 DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2021-12-17 17:29:33,886 TestNG-test=Test-1 DEBUG PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n", PatternSelector=null, Configuration(C:\DEV\ECLIPSE3\EcommerceOperations\target\classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2021-12-17 17:29:33,887 TestNG-test=Test-1 DEBUG PluginManager 'Converter' found 45 plugins
+2021-12-17 17:29:33,889 TestNG-test=Test-1 DEBUG Building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy].
+2021-12-17 17:29:33,903 TestNG-test=Test-1 DEBUG createPolicy(size="100")
+2021-12-17 17:29:33,906 TestNG-test=Test-1 DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender].
+2021-12-17 17:29:33,941 TestNG-test=Test-1 DEBUG RollingFileAppender$Builder(fileName="null", filePattern="${basepath}/logs-%d{yyyy-mm-dd}.log", append="null", locking="null", SizeBasedTriggeringPolicy(SizeBasedTriggeringPolicy(size=100)), Strategy=null, advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n), name="File", Configuration(C:\DEV\ECLIPSE3\EcommerceOperations\target\classes\log4j2.xml), Filter=null, ={})
+2021-12-17 17:29:33,993 TestNG-test=Test-1 DEBUG Starting RollingFileManager ${basepath}/logs-%d{yyyy-mm-dd}.log
+2021-12-17 17:29:33,996 TestNG-test=Test-1 DEBUG PluginManager 'FileConverter' found 2 plugins
+2021-12-17 17:29:34,086 TestNG-test=Test-1 DEBUG Setting prev file time to 1970-01-01T05:30:00.000+0530
+2021-12-17 17:29:34,087 TestNG-test=Test-1 DEBUG Initializing triggering policy SizeBasedTriggeringPolicy(size=100)
+2021-12-17 17:29:34,088 TestNG-test=Test-1 DEBUG Formatting file name. useCurrentTime=false. currentFileTime=0, prevFileTime=0
+2021-12-17 17:29:34,112 TestNG-test=Test-1 TRACE Using default SystemClock for timestamps.
+2021-12-17 17:29:34,112 TestNG-test=Test-1 DEBUG org.apache.logging.log4j.core.util.SystemClock supports precise timestamps.
+2021-12-17 17:29:34,157 TestNG-test=Test-1 DEBUG Formatting file name. useCurrentTime=true. currentFileTime=0, prevFileTime=0
+2021-12-17 17:29:34,158 TestNG-test=Test-1 DEBUG Formatting file name. useCurrentTime=false. currentFileTime=0, prevFileTime=0
+2021-12-17 17:29:34,159 TestNG-test=Test-1 DEBUG Formatting file name. useCurrentTime=true. currentFileTime=0, prevFileTime=0
+2021-12-17 17:29:34,161 TestNG-test=Test-1 DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2021-12-17 17:29:34,162 TestNG-test=Test-1 DEBUG PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n", PatternSelector=null, Configuration(C:\DEV\ECLIPSE3\EcommerceOperations\target\classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2021-12-17 17:29:34,165 TestNG-test=Test-1 DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2021-12-17 17:29:34,171 TestNG-test=Test-1 DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n), name="Console", Configuration(C:\DEV\ECLIPSE3\EcommerceOperations\target\classes\log4j2.xml), Filter=null, ={})
+2021-12-17 17:29:34,174 TestNG-test=Test-1 DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2021-12-17 17:29:34,175 TestNG-test=Test-1 DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2021-12-17 17:29:34,176 TestNG-test=Test-1 DEBUG createAppenders(={File, Console})
+2021-12-17 17:29:34,176 TestNG-test=Test-1 DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2021-12-17 17:29:34,177 TestNG-test=Test-1 DEBUG createAppenderRef(ref="File", level="null", Filter=null)
+2021-12-17 17:29:34,178 TestNG-test=Test-1 DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2021-12-17 17:29:34,182 TestNG-test=Test-1 DEBUG createLogger(additivity="null", level="TRACE", includeLocation="null", ={File}, ={}, Configuration(C:\DEV\ECLIPSE3\EcommerceOperations\target\classes\log4j2.xml), Filter=null)
+2021-12-17 17:29:34,205 TestNG-test=Test-1 DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2021-12-17 17:29:34,207 TestNG-test=Test-1 DEBUG createLoggers(={root})
+2021-12-17 17:29:34,208 TestNG-test=Test-1 DEBUG Configuration XmlConfiguration[location=C:\DEV\ECLIPSE3\EcommerceOperations\target\classes\log4j2.xml] initialized
+2021-12-17 17:29:34,209 TestNG-test=Test-1 DEBUG Starting configuration XmlConfiguration[location=C:\DEV\ECLIPSE3\EcommerceOperations\target\classes\log4j2.xml]
+2021-12-17 17:29:34,209 TestNG-test=Test-1 DEBUG Started configuration XmlConfiguration[location=C:\DEV\ECLIPSE3\EcommerceOperations\target\classes\log4j2.xml] OK.
+2021-12-17 17:29:34,227 TestNG-test=Test-1 TRACE Stopping org.apache.logging.log4j.core.config.DefaultConfiguration@1dcec668...
+2021-12-17 17:29:34,228 TestNG-test=Test-1 TRACE DefaultConfiguration notified 1 ReliabilityStrategies that config will be stopped.
+2021-12-17 17:29:34,229 TestNG-test=Test-1 TRACE DefaultConfiguration stopping root LoggerConfig.
+2021-12-17 17:29:34,230 TestNG-test=Test-1 TRACE DefaultConfiguration notifying ReliabilityStrategies that appenders will be stopped.
+2021-12-17 17:29:34,231 TestNG-test=Test-1 TRACE DefaultConfiguration stopping remaining Appenders.
+2021-12-17 17:29:34,233 TestNG-test=Test-1 DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2021-12-17 17:29:34,234 TestNG-test=Test-1 DEBUG OutputStream closed
+2021-12-17 17:29:34,234 TestNG-test=Test-1 DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2021-12-17 17:29:34,235 TestNG-test=Test-1 DEBUG Appender DefaultConsole-1 stopped with status true
+2021-12-17 17:29:34,236 TestNG-test=Test-1 TRACE DefaultConfiguration stopped 1 remaining Appenders.
+2021-12-17 17:29:34,236 TestNG-test=Test-1 TRACE DefaultConfiguration cleaning Appenders from 1 LoggerConfigs.
+2021-12-17 17:29:34,237 TestNG-test=Test-1 DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@1dcec668 OK
+2021-12-17 17:29:34,539 TestNG-test=Test-1 TRACE Reregistering MBeans after reconfigure. Selector=org.apache.logging.log4j.core.selector.ClassLoaderContextSelector@6bbc27cd
+2021-12-17 17:29:34,539 TestNG-test=Test-1 TRACE Reregistering context (1/1): 'c387f44' org.apache.logging.log4j.core.LoggerContext@b066557
+2021-12-17 17:29:34,540 TestNG-test=Test-1 TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=c387f44'
+2021-12-17 17:29:34,541 TestNG-test=Test-1 TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=c387f44,component=StatusLogger'
+2021-12-17 17:29:34,544 TestNG-test=Test-1 TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=c387f44,component=ContextSelector'
+2021-12-17 17:29:34,545 TestNG-test=Test-1 TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=c387f44,component=Loggers,name=*'
+2021-12-17 17:29:34,546 TestNG-test=Test-1 TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=c387f44,component=Appenders,name=*'
+2021-12-17 17:29:34,547 TestNG-test=Test-1 TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=c387f44,component=AsyncAppenders,name=*'
+2021-12-17 17:29:34,548 TestNG-test=Test-1 TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=c387f44,component=AsyncLoggerRingBuffer'
+2021-12-17 17:29:34,549 TestNG-test=Test-1 TRACE Unregistering but no MBeans found matching 'org.apache.logging.log4j2:type=c387f44,component=Loggers,name=*,subtype=RingBuffer'
+2021-12-17 17:29:34,554 TestNG-test=Test-1 DEBUG Registering MBean org.apache.logging.log4j2:type=c387f44
+2021-12-17 17:29:34,569 TestNG-test=Test-1 DEBUG Registering MBean org.apache.logging.log4j2:type=c387f44,component=StatusLogger
+2021-12-17 17:29:34,572 TestNG-test=Test-1 DEBUG Registering MBean org.apache.logging.log4j2:type=c387f44,component=ContextSelector
+2021-12-17 17:29:34,575 TestNG-test=Test-1 DEBUG Registering MBean org.apache.logging.log4j2:type=c387f44,component=Loggers,name=
+2021-12-17 17:29:34,593 TestNG-test=Test-1 DEBUG Registering MBean org.apache.logging.log4j2:type=c387f44,component=Appenders,name=Console
+2021-12-17 17:29:34,595 TestNG-test=Test-1 DEBUG Registering MBean org.apache.logging.log4j2:type=c387f44,component=Appenders,name=File
+2021-12-17 17:29:34,595 TestNG-test=Test-1 TRACE Using DummyNanoClock for nanosecond timestamps.
+2021-12-17 17:29:34,597 TestNG-test=Test-1 DEBUG Reconfiguration complete for context[name=c387f44] at URI C:\DEV\ECLIPSE3\EcommerceOperations\target\classes\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@b066557) with optional ClassLoader: null
+2021-12-17 17:29:34,597 TestNG-test=Test-1 DEBUG Shutdown hook enabled. Registering a new one.
+2021-12-17 17:29:34,601 TestNG-test=Test-1 DEBUG LoggerContext[name=c387f44, org.apache.logging.log4j.core.LoggerContext@b066557] started OK.
+2021-12-17 17:29:34,640 TestNG-test=Test-1 DEBUG Formatting file name. useCurrentTime=false. currentFileTime=0, prevFileTime=0
+2021-12-17 17:29:34,641 TestNG-test=Test-1 DEBUG Formatting file name. useCurrentTime=true. currentFileTime=0, prevFileTime=0
+2021-12-17 17:29:34,642 TestNG-test=Test-1 DEBUG Now writing to ${basepath}/logs-2021-29-17.log at 2021-12-17T17:29:34.641+0530
+2021-12-17 17:29:38,983 TestNG-test=Test-1 DEBUG Rolling ${basepath}/logs-2021-29-17.log
+2021-12-17 17:29:38,983 TestNG-test=Test-1 DEBUG Formatting file name. useCurrentTime=false. currentFileTime=0, prevFileTime=0
+2021-12-17 17:29:38,984 TestNG-test=Test-1 DEBUG Found 0 eligible files, max is  2147483647
+2021-12-17 17:29:38,985 TestNG-test=Test-1 TRACE DirectWriteRolloverStrategy.purge() took 1.0 milliseconds
+2021-12-17 17:29:38,986 TestNG-test=Test-1 DEBUG OutputStream closed
+2021-12-17 17:29:38,987 TestNG-test=Test-1 DEBUG Formatting file name. useCurrentTime=false. currentFileTime=0, prevFileTime=0
+2021-12-17 17:29:38,987 TestNG-test=Test-1 DEBUG Formatting file name. useCurrentTime=true. currentFileTime=0, prevFileTime=0
+2021-12-17 17:29:38,988 TestNG-test=Test-1 DEBUG Now writing to ${basepath}/logs-2021-29-17.log at 2021-12-17T17:29:38.988+0530
+2021-12-17 17:29:48,263 TestNG-test=Test-1 DEBUG Rolling ${basepath}/logs-2021-29-17.log
+2021-12-17 17:29:48,264 TestNG-test=Test-1 DEBUG Formatting file name. useCurrentTime=false. currentFileTime=0, prevFileTime=0
+2021-12-17 17:29:48,265 TestNG-test=Test-1 DEBUG Found 0 eligible files, max is  2147483647
+2021-12-17 17:29:48,266 TestNG-test=Test-1 TRACE DirectWriteRolloverStrategy.purge() took 2.0 milliseconds
+2021-12-17 17:29:48,267 TestNG-test=Test-1 DEBUG OutputStream closed
+2021-12-17 17:29:48,268 TestNG-test=Test-1 DEBUG Formatting file name. useCurrentTime=false. currentFileTime=0, prevFileTime=0
+2021-12-17 17:29:48,269 TestNG-test=Test-1 DEBUG Formatting file name. useCurrentTime=true. currentFileTime=0, prevFileTime=0
+2021-12-17 17:29:48,270 TestNG-test=Test-1 DEBUG Now writing to ${basepath}/logs-2021-29-17.log at 2021-12-17T17:29:48.269+0530
+2021-12-17 17:29:52,955 TestNG-test=Test-1 DEBUG Rolling ${basepath}/logs-2021-29-17.log
+2021-12-17 17:29:52,955 TestNG-test=Test-1 DEBUG Formatting file name. useCurrentTime=false. currentFileTime=0, prevFileTime=0
+2021-12-17 17:29:52,956 TestNG-test=Test-1 DEBUG Found 0 eligible files, max is  2147483647
+2021-12-17 17:29:52,957 TestNG-test=Test-1 TRACE DirectWriteRolloverStrategy.purge() took 1.0 milliseconds
+2021-12-17 17:29:52,957 TestNG-test=Test-1 DEBUG OutputStream closed
+2021-12-17 17:29:52,958 TestNG-test=Test-1 DEBUG Formatting file name. useCurrentTime=false. currentFileTime=0, prevFileTime=0
+2021-12-17 17:29:52,959 TestNG-test=Test-1 DEBUG Formatting file name. useCurrentTime=true. currentFileTime=0, prevFileTime=0
+2021-12-17 17:29:52,960 TestNG-test=Test-1 DEBUG Now writing to ${basepath}/logs-2021-29-17.log at 2021-12-17T17:29:52.960+0530
+]]></system-out>
+    <system-err><![CDATA[Warning: Nashorn engine is planned to be removed from a future JDK release
+Starting ChromeDriver 95.0.4638.69 (6a1600ed572fedecd573b6c2b90a22fe6392a410-refs/branch-heads/4638@{#984}) on port 26541
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1639742378.727][WARNING]: This version of ChromeDriver has not been tested with Chrome version 96.
+Dec 17, 2021 5:29:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario" classname="cucumberOptions.TestRunner2" time="38.203">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+</failure>
+    <system-err><![CDATA[java.lang.NoSuchFieldException: testDriver
+	at java.base/java.lang.Class.getDeclaredField(Class.java:2489)
+	at stepDefinitions.Listeners.onTestFailure(Listeners.java:78)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:96)
+	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:656)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+]]></system-err>
+  </testcase>
+</testsuite>

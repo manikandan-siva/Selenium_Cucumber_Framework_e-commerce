@@ -1,0 +1,4 @@
+19:29:10.485 [TestNG-test=Test-1] ERROR stepDefinitions.UsrAccCreateAndVald - Initiating Driver
+19:29:14.618 [TestNG-test=Test-1] ERROR stepDefinitions.UsrAccCreateAndVald - Driver Initiation complete
+19:29:14.635 [TestNG-test=Test-1] INFO  stepDefinitions.UsrAccCreateAndVald - Launching URL - http://automationpractice.com/index.php
+19:29:33.462 [TestNG-test=Test-1] ERROR stepDefinitions.UsrAccCreateAndVald - URL Launched successfully
